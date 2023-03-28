@@ -3,8 +3,11 @@
 Author: [planet620]
 
 The following project presents a syntax colorizer for Intel® Implicit SPMD Program Compiler ([ISPC]) language.
+
 * Developed using Managed Extensibility Framework (MEF)
+
 * Distributed as VSIX package for Visual Studio 2022
+
 * Based on [ISPC Language] specification page
 
 Example colorized view, based on mandelbrot example from [ISPC Release]:
@@ -14,19 +17,29 @@ Example colorized view, based on mandelbrot example from [ISPC Release]:
 ## Installation ##
 
 Extension can be installed without building the solution.
+
 * Double click on ispcSyntax.vsix
+
 * Follow the installation steps
 
+Step 1:
 ![Step1](install1.jpg)
+
+Step 2:
 ![Step2](install2.jpg)
 
 ## Build ##
 
 The solution can be extended and developed further. The following prerequisites are required:
+
 * .NET 4.7.2
+
 * [Visual Studio SDK]
+
 * [Visual Studio SDK Build Tools]
+
 * Both packages can be added from NuGet directory.
+
 
 Additional read: [Editor and language service extensions]
 
