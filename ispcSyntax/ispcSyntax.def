@@ -1,0 +1,7 @@
+﻿; ispcSyntax.def : Declares the module parameters.
+
+LIBRARY      "ispcSyntax.DLL"
+
+EXPORTS
+	DllCanUnloadNow            PRIVATE
+	DllGetClassObject          PRIVATE
