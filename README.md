@@ -30,6 +30,10 @@ Step 2:
 
 ![Step2](install2.jpg)
 
+Step 3:
+
+Open Visual Studio 2022, files with extensions *.ispc should have syntax colorized.
+
 ## Build ##
 
 The solution can be extended and developed further. The following prerequisites are required:
