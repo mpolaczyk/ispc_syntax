@@ -1,29 +1,29 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Author: [planet620]
 
-### What is this repository for? ###
+The following project presents a syntax colorizer for Intel® Implicit SPMD Program Compiler ([ISPC]) language.
+distributed as VSIX package for Visual Studio 2022.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Based on [ISPC Language] specification page.
 
-### How do I get set up? ###
+Example view:
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+![Example view](example.jpg)
 
-### Contribution guidelines ###
+### Prerequisites ###
 
-* Writing tests
-* Code review
-* Other guidelines
+* Requires .NET 4.7.2
+* [Visual Studio SDK]
+* [Visual Studio SDK Build Tools]
+* Both packages can be added from NuGet directory.
 
-### Who do I talk to? ###
+https://docs.microsoft.com/en-us/visualstudio/extensibility/creating-an-extension-with-an-editor-item-template?view=vs-2022
 
-* Repo owner or admin
-* Other community or team contact
+[//]: # (links)
+
+   [planet620]: <https://mpolaczyk.pl>
+   [Visual Studio SDK]: <https://www.nuget.org/packages/Microsoft.VisualStudio.Sdk>
+   [Visual Studio SDK Build Tools]: <https://www.nuget.org/packages/Microsoft.VSSDK.BuildTools>
+   [ISPC]: <https://ispc.github.io/index.html>
+   [ISPC Language]: <https://ispc.github.io/ispc.html#the-ispc-language>
