@@ -23,9 +23,11 @@ Extension can be installed without building the solution.
 * Follow the installation steps
 
 Step 1:
+
 ![Step1](install1.jpg)
 
 Step 2:
+
 ![Step2](install2.jpg)
 
 ## Build ##
